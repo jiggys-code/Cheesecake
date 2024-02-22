@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav {
+    width: 100%;
+    background: linear-gradient(to right, rgb(221, 164, 67), rgb(255, 226, 168));
+    padding: 20px 50px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav h3 {
+    color: rgb(98, 71, 16);
+}
+
+.navlinkcontainer {
+    border: 1px solid rgb(103, 73, 17);
+    padding: 5px 10px;
+    background-color: rgb(98, 71, 16);
+    border-radius: 5px;
+}
+
+/* .navlinkcontainer a:hover {
+    background-color: white;
+    padding: 20px 0;
+
+} */
+
+.navlinkcontainer a {
+    padding: 20px 20px;
+    color: white;
+}
+
+nav button {
+    border: 1px solid rgb(85, 61, 17);
+    outline: none;
+    padding: 5px 5px;
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+.Sectioncontainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+    background: linear-gradient(to right, rgb(221, 164, 67), rgb(255, 226, 168));
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.section1 {
+    color: rgb(98, 71, 16);
+    margin-left: 2px;
+
+}
+
+.section1 h1 {
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+}
+
+.section1 p {
+    font-size: smaller;
+    padding-bottom: 10px;
+}
+
+.btnmcontainer {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.btm {
+    border: none;
+    outline: none;
+    background-color: rgb(98, 71, 16);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.btn {
+    border: 1px solid rgb(73, 52, 10);
+    outline: none;
+    background-color: transparent;
+    color: rgb(76, 54, 12);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    background-color: wheat;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    width: 100%;
+    height: 100%;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.sectionitem {
+    color: rgb(76, 54, 12);
+}
+
+.sectionitem h1 {
+    letter-spacing: 3px;
+    padding-bottom: 4px;
+    margin-left: 2px;
+    font-size: 2em;
+}
+
+section h5 {
+    letter-spacing: 2px;
+    padding-bottom: 13px;
+    margin-left: 2px;
+    font-size: 1em;
+}
+
+
+section p {
+    text-align: justify;
+    padding-bottom: 13px;
+    font-size: 1em;
+}
+
+section button {
+    border: 1px solid wheat;
+    outline: none;
+    background-color: rgb(76, 54, 12);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+
+.wholecardcontainer {
+    background-color: rgb(76, 54, 12);
+    padding-top: 50px;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.wholecardcontainer h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.card1 {
+    width: 280px;
+    background-color: wheat;
+    border-radius: 20px;
+    color: rgb(76, 54, 12);
+    padding: 20px;
+}
+
+.cardimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.cardtext h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.cardtext p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.icontag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.ptag {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 60px;
+    padding-top: 10px;
+}
+
+.wholeblogcontainer {
+    background-color: wheat;
+    color: rgb(76, 54, 12);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wholeblogcontainer h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+
+}
+
+.wholeblogcontainer h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.blogcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.blogcard {
+    width: 300px;
+    background-color: wheat;
+    box-shadow: 2px 2px 2px 2px rgb(76, 54, 12);
+    border-radius: 10px;
+    text-align: justify;
+    padding: 20px;
+}
+
+.blogimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.blogdate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    color: brown;
+}
+
+.blogtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bloghide{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: rgb(76, 54, 12);
+    color: wheat;
+}
+
+.footercontainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.footerpart1 {
+    text-align: justify;
+}
+
+.footerpart1 h1 {
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+/* .tagicon{
+    padding-right: 20px;
+} */
+
+.book{
+    color: orange;
+    padding-right: 20px;
+}
+
+.buk{
+    padding-right: 20px;
+}
+.bok{
+    padding-right: 20px;
+}
+.bak{
+    padding-right: 20px;
+}
+
+
+.footerpart2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.input1, .input2, .input3{
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    color: rgb(76, 54, 12);
+    border-radius: 15px;
+    width: 250px;
+}
+
+.iconontainer{
+    padding: 80px 10px 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
